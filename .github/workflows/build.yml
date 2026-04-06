@@ -1,0 +1,35 @@
+name: Validate Faster Poster
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: HTML Validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: List web files
+        run: |
+          echo "HTML files:"
+          find . -name "*.html" -o -name "*.htm" | head -20
+          echo ""
+          echo "CSS files:"
+          find . -name "*.css" | head -20
+          echo ""
+          echo "JavaScript files:"
+          find . -name "*.js" | head -20
+
+      - name: Count lines of code
+        run: |
+          for ext in html htm css js php; do
+            count=$(find . -name "*.$ext" -exec cat {} + 2>/dev/null | wc -l)
+            if [ "$count" -gt 0 ]; then
+              echo "$ext: $count lines"
+            fi
+          done
