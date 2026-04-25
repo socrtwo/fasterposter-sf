@@ -1,5 +1,10 @@
 # Faster Poster
 
+<!--PAGES_LINK_BANNER-->
+> 🌐 **Live page:** [https://socrtwo.github.io/fasterposter-SF/](https://socrtwo.github.io/fasterposter-SF/)  
+> 📦 **Releases:** [github.com/socrtwo/fasterposter-SF/releases](https://github.com/socrtwo/fasterposter-SF/releases)
+<!--/PAGES_LINK_BANNER-->
+
 A web-based tool for creating quick, simple posters and flyers using just your browser. No sign-up or software install needed.
 
 ## Screenshots
