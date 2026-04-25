@@ -1,6 +1,11 @@
 <!--MODERNIZED:v1-->
 # Fasterposter
 
+<!--PAGES_LINK_BANNER-->
+> 🌐 **Live page:** [https://socrtwo.github.io/fasterposter-SF/](https://socrtwo.github.io/fasterposter-SF/)  
+> 📦 **Releases:** [github.com/socrtwo/fasterposter-SF/releases](https://github.com/socrtwo/fasterposter-SF/releases)
+<!--/PAGES_LINK_BANNER-->
+
 > Migrated from SourceForge via SF2GH Migrator
 
 [![Live page](https://img.shields.io/badge/live-page-ff2e93?style=for-the-badge)](https://socrtwo.github.io/fasterposter-SF/)
